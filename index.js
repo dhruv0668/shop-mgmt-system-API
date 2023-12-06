@@ -9,19 +9,6 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 
-// work not done
-//..1 if url false so handle error 
-
-// today work is
-// 1 create disable or enable staff API and add some functionality like if disable = true so all staff token delete and can not login  
-// 2 create disable or enable shop_owner API and add functionality to all shop staff disable or enable and all token delete when owner is disable or enable 
-// 3 clear all data in database and check all API
-// 4 fix some isshu in login API and add some condition
-
-
-// tooday work is
-// add some functionality in all API's like, if add false url so get json response
-
 //database config
 connectDB()
 
